@@ -22,7 +22,7 @@ public class App
     {
     	List<SampleRequest> beans;
 		try {
-			CsvTestRunner<SampleRequest> runner= new CsvTestRunner<SampleRequest>("F:\\csv\\test.csv", SampleRequest.class);			
+			CsvTestRunner<SampleRequest> runner= new CsvTestRunner<SampleRequest>("YOUR FILE HERE!", SampleRequest.class);			
 			runner.dumpBeansToConsole();			
 		}
 		 catch (FileNotFoundException e) {
